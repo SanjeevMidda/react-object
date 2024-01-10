@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.view,
+.edit {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40vw;
+  height: 40vh;
+  border: 1px solid greenyellow;
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+span {
+  font-weight: 500;
+}
+
+.editButton {
+  border: 20px;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 20px;
+}
+
+input {
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: 50%;
+  background-color: none;
+  padding: 10px;
+}
